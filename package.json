@@ -1,0 +1,19 @@
+{
+  "name": "dat-alias-storage",
+  "version": "0.0.1",
+  "description": "A storage provider for dat that enables aliased file structures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Forster",
+  "license": "MIT",
+  "dependencies": {
+    "dat-storage": "^1.1.1",
+    "multi-random-access": "^2.1.1",
+    "random-access-alias": "0.0.1"
+  },
+  "devDependencies": {
+    "dat-sdk": "^0.3.6"
+  }
+}
