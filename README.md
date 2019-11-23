@@ -1,5 +1,7 @@
 # dat-alias-storage
 
+[![Build Status](https://travis-ci.org/e-e-e/dat-alias-storage.svg?branch=master)](https://travis-ci.org/e-e-e/dat-alias-storage)
+
 This is a fork of [dat-storage](https://github.com/datproject/dat-storage) which adds [random-access-alias](https://github.com/e-e-e/random-access-alias) to allow dats to be made with `content.data` aliased to files outside of the specified dat directory.
 
 This is useful if you have a large data set which you would like to provide as a collection of smaller dats, without duplicating data or having to change file structure. One such use case, is a large library of texts, with sets of texts defined as collections, **dat-alias-storage** can be used to share the collections as individual dats.
