@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`smoke test creates a dat archive with aliased files and syncs 1`] = `
+Array [
+  "content.bitfield",
+  "content.key",
+  "content.signatures",
+  "content.tree",
+  "metadata.bitfield",
+  "metadata.data",
+  "metadata.key",
+  "metadata.ogd",
+  "metadata.signatures",
+  "metadata.tree",
+]
+`;
+
+exports[`smoke test creates a dat archive with aliased files and syncs 2`] = `
+Array [
+  "a.txt",
+  "b.txt",
+  "c.txt",
+]
+`;
