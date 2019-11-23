@@ -1,6 +1,6 @@
 {
   "name": "dat-alias-storage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A storage provider for dat that enables aliased file structures.",
   "main": "index.js",
   "scripts": {
